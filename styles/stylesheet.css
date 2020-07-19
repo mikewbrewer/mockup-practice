@@ -80,6 +80,16 @@ aside a {
   height: 20px;
 }
 
+.kitty-img {
+  float: both;
+  max-width: 300px;
+}
+
+.secondary-content {
+  position: relative;
+  text-align: center;
+}
+
 p.quote {
   color: #2C9AB7;
   font-size: 1.2rem;
@@ -104,6 +114,7 @@ footer img {
   margin-bottom: 10px;
   max-width: 250px;
   height: auto;
+  
 }
 
 footer nav {
