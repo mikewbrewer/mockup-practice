@@ -16,6 +16,8 @@ header section {
   width: 100%;
   background-color: #2C9AB7;
   height: 200px;
+  padding-left: 10%;
+
 }
 
 header h1 {
@@ -23,14 +25,20 @@ header h1 {
   font-size: 3rem;
   color: white;
   left: 10%;
-  top: 50%;
+  top: 40%;
   transform: translate(0%, -50%);
 }
 
-h1 p {
-  font-weight: normal;
-  font-size: 1.5rem;
+header i {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: lighter;
+  position: absolute;
+  top: 55%;
 }
+
+
+
 h3 {
   color: #2C9AB7;
   margin: 10px 0px 20px 0px;
@@ -48,6 +56,7 @@ aside a {
   color: #2C9AB7;
   font-weight: lighter;
   font-size: .8rem;
+  text-decoration: none;
 }
 
 
@@ -56,7 +65,7 @@ aside a {
   margin-left: 10%;
   width: 80%;
   line-height: 1.6rem;
-  height: 1000
+  height: 700px;
 
 }
 
@@ -71,23 +80,23 @@ aside a {
   margin-left: 3rem;
 }
 
-.main-content article {
-  width: 75%;
-
-}
 
 .spacer {
   height: 20px;
 }
 
 .kitty-img {
-  float: both;
   max-width: 300px;
 }
 
 .secondary-content {
   position: relative;
   text-align: center;
+}
+
+.sub-header {
+  font-weight: normal;
+  font-size: 1.5rem;
 }
 
 p.quote {
@@ -114,7 +123,7 @@ footer img {
   margin-bottom: 10px;
   max-width: 250px;
   height: auto;
-  
+
 }
 
 footer nav {
