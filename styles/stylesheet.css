@@ -1,6 +1,7 @@
 * {
   font-family: "Helvetica", Sans-serif;
   margin: 0rem;
+  box-sizing: border-box;
 }
 
 header {
@@ -27,22 +28,64 @@ header h1 {
 }
 
 h1 p {
-  color: white;
   font-weight: normal;
   font-size: 1.5rem;
-  padding-top: 5px;
 }
-
 h3 {
   color: #2C9AB7;
-  margin-top: 20px;
+  margin: 10px 0px 20px 0px;
 }
 
-h3 p, h4 p, figcaption {
-  color: #393939;
-  margin-top: 30px;
-  font-size: .9rem;
+h4 {
+  margin-bottom: 5px;
 }
+
+aside img {
+  max-width: 220px;
+}
+
+aside a {
+  color: #2C9AB7;
+  font-weight: lighter;
+  font-size: .8rem;
+}
+
+
+
+.main-content {
+  margin-left: 10%;
+  width: 80%;
+  line-height: 1.6rem;
+  height: 650px;
+
+}
+
+.main-content p, aside figcaption {
+  font-weight: normal;
+  font-size: .8rem;
+}
+
+.main-content aside {
+  float: right;
+  width: 25%;
+  margin-left: 3rem;
+}
+
+.main-content article {
+  width: 75%;
+
+}
+
+.spacer {
+  height: 20px;
+}
+
+p.quote {
+  color: #2C9AB7;
+  font-size: 1.2rem;
+  margin: 30px 0px 30px 0px;
+}
+
 
 footer {
   clear: both;
@@ -81,22 +124,6 @@ footer nav a {
 }
 
 
-.main-content {
-  position: relative;
-  padding-right: 30px;
-  margin: 0% 10% 0% 10%;
-  line-height: 1.5rem;
-}
-
-.main-content p {
-  font-weight: normal;
-}
-
-.main-content aside {
-  float: right;
-  width: 25%;
-  margin-left: 50px;
-}
 
 .highlight-blue {
   color: #2C9AB7;
