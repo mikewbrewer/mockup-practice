@@ -40,9 +40,15 @@ h3 {
 
 h3 p, h4 p, figcaption {
   color: #393939;
-  margin-top: 30px;
   font-size: .9rem;
+  text-decoration: none;
+  font-weight: normal;
 }
+
+figcaption {
+  margin-top: 10px;
+}
+
 
 footer {
   clear: both;
@@ -90,24 +96,39 @@ footer nav a {
 
 .main-content p {
   font-weight: normal;
+  padding: 10px 0px 10px 0px;
 }
 
 .main-content aside {
   float: right;
   width: 25%;
   margin-left: 50px;
+  height: 10*-++9900px;
 }
 
-.highlight-blue {
+.highlight-blue, a {
   color: #2C9AB7;
 }
 
+aside a {
+  font-size: .9rem;
+  text-decoration: none;
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+
+.aside-img {
+  max-width: 250px;
+  height: auto;
+  margin: 10px 0px 0px 0px;
+}
 
 #paragraph-quote {
   color: #2C9AB7;
   font-size: 1.4rem;
-  padding-bottom: 50px;
+  padding: 40px 0px 40px 0px;
   line-height: 2rem;
+  font-weight: lighter;
 }
 
 #header-nav {
