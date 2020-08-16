@@ -80,6 +80,18 @@ aside a {
   margin-left: 3rem;
 }
 
+.hidden {
+  position: absolute;
+  left: -1000px;
+  top: auto;
+  z-index: 2;
+  color: white;
+}
+
+.hidden:focus {
+  left: 0;
+}
+
 
 .spacer {
   height: 20px;
